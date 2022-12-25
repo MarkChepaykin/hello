@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            input[type=submit]{
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+                background-color: blue;
+                color: white;
+                border-radius: 5px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div>
+                <a rel="Search" href="index.html">Search</a>
+            </div>
+            <div>
+                <a rel="Advanced" href="images.html">Images</a>
+            </div>
+            <div>
+                <a rel="Images" href="advancedSearch.html">Advanced Search</a>
+            </div>     
+        </div>
+
+
+        <div class="left">
+            <img src="logo.png" alt="logo" width="300px">
+
+            <h1>
+                Advanced Search
+            </h1>
+
+            <div class="flex-container">            
+                <form action="https://www.google.com/search">
+
+                    <div>
+                        All these words:
+                        <input type="text" name="as_q">
+                    </div>
+
+                    <div>
+                        This exact word or phrase:
+                        <input type="text" name="as_epq">
+                    </div>
+
+                    <div>
+                        None of these words:
+                        <input type="text" name="as_eq">
+
+                    </div>
+
+                    <div>
+                        Any of these words:
+                        <input type="text" name="as_oq">
+                    </div>
+                    <input type="submit" value="Search">
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
