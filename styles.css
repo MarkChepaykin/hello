@@ -2,12 +2,12 @@ body {
     background-color: #1b1b1b;
     color: white;
     font-size: 25px;
-    
 }
 
 .navbar  {
     display: flex;
     flex-direction: row-reverse;
+    color: white;
 }
 
 .navbar > div {
